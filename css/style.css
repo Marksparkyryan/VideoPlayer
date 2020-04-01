@@ -42,14 +42,19 @@ h1 {
     border: 0;
     background: transparent;
     cursor: pointer;
+    width: 30px;
+}
+
+.controls .btn:nth-child(2) {
+    margin-right: 7px; 
 }
 
 .controls .fa-play {
-    color: #28a745;
+    color: #45e46a;
 }
 
 .controls .fa-stop {
-    color: #dc3545;
+    color: #ff4a5f;
 }
 
 .controls .fa-pause {
